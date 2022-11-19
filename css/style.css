@@ -1,0 +1,81 @@
+body{
+    font-family: cursive;
+    background-color: rgb(177, 230, 241);    
+    background-repeat:repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url(puzzle.png);
+    font-style: italic;
+    cursor: url(cursor.png), auto;
+}
+h1{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    font-size: 6.9vmin;
+    letter-spacing: 0.1vmin;
+    font-weight: bold;
+    text-decoration: overline underline whitesmoke;
+    text-underline-offset: 2vmin;
+    background: -webkit-linear-gradient(rgb(147, 5, 235), rgb(221, 5, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.16vmin rgb(241, 243, 244);
+}
+.header{
+    margin-top: 10vmin;
+}
+.container{
+    display: block;
+    position: relative;
+    justify-content:center;
+    margin: 0 auto;
+    padding: 8vmin 10vmin 8vmin;
+    width: 120vmin;
+    height: 60vmin;
+    text-align: center;
+    background:rgba(242, 238, 237, 0.607);
+    border-radius: 3vmin;
+    border: 1.3vmin solid rgba(180, 174, 238, 0.708);
+}
+.images{
+    display: flex;
+    justify-content: center;
+    margin: auto 4vmin 7vmin 4vmin;
+    box-sizing: border-box;
+    padding: 1.5vmin 1.5vmin;
+}
+img{
+    display: flex;
+    box-sizing: border-box;
+    margin: auto 3vmin 3vmin 3vmin;
+    height: 16vmin;
+    width: 16vmin;
+    border-radius: 2vmin;
+    border: 0.8vmin solid white;
+    cursor: url(click-here.png), auto;
+    background-color: rgba(247, 229, 174, 0.956);
+}
+#ball:hover{
+    box-shadow: rgba(85, 91, 255, 0.955) 0px 0px 0px 2px, rgba(30, 193, 27, 0.955) 0px 0px 0px 4px, rgba(255, 216, 19, 0.938) 0px 0px 0px 7px, rgba(255, 156, 85, 0.966) 0px 0px 0px 10px, rgba(255, 85, 85, 0.938) 0px 0px 0px 13px;
+}
+#numbers:hover{
+    box-shadow: rgba(85, 91, 255, 0.955) 0px 0px 0px 2px, rgba(30, 193, 27, 0.955) 0px 0px 0px 4px, rgba(255, 216, 19, 0.938) 0px 0px 0px 7px, rgba(255, 156, 85, 0.966) 0px 0px 0px 10px, rgba(255, 85, 85, 0.938) 0px 0px 0px 13px;
+}
+#cards:hover{
+    box-shadow: rgba(85, 91, 255, 0.955) 0px 0px 0px 2px, rgba(30, 193, 27, 0.955) 0px 0px 0px 4px, rgba(255, 216, 19, 0.938) 0px 0px 0px 7px, rgba(255, 156, 85, 0.966) 0px 0px 0px 10px, rgba(255, 85, 85, 0.938) 0px 0px 0px 13px;
+}
+#jackpot:hover{
+    box-shadow: rgba(85, 91, 255, 0.955) 0px 0px 0px 2px, rgba(30, 193, 27, 0.955) 0px 0px 0px 4px, rgba(255, 216, 19, 0.938) 0px 0px 0px 7px, rgba(255, 156, 85, 0.966) 0px 0px 0px 10px, rgba(255, 85, 85, 0.938) 0px 0px 0px 13px;
+}
+#language1:hover{
+    box-shadow: rgba(85, 91, 255, 0.955) 0px 0px 0px 2px, rgba(30, 193, 27, 0.955) 0px 0px 0px 4px, rgba(255, 216, 19, 0.938) 0px 0px 0px 7px, rgba(255, 156, 85, 0.966) 0px 0px 0px 10px, rgba(255, 85, 85, 0.938) 0px 0px 0px 13px;
+}
+#language2:hover{
+    box-shadow: rgba(85, 91, 255, 0.955) 0px 0px 0px 2px, rgba(30, 193, 27, 0.955) 0px 0px 0px 4px, rgba(255, 216, 19, 0.938) 0px 0px 0px 7px, rgba(255, 156, 85, 0.966) 0px 0px 0px 10px, rgba(255, 85, 85, 0.938) 0px 0px 0px 13px;
+}
+img:hover{
+    background-color: rgba(255, 216, 19, 0.938);
+}
